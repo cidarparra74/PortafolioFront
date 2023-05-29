@@ -38,23 +38,11 @@
 }
 
 .title-tech {
-  margin: 0 auto 5px;
-  width: 550px;
-  height: 32px;
   font-weight: 600;
   font-size: 16px;
   line-height: 200%;
-  /* identical to box height, or 32px */
-
-  /* Light/Title */
-
+  text-align: start;
   color: #273b49;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 .about {
   width: 550px;
@@ -77,5 +65,5 @@
   align-items: start;
   margin: 0;
   display: block;
-  color: #54B3F8;
+  color: #54b3f8;
 }
